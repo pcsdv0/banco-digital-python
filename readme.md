@@ -1,17 +1,50 @@
-🚀 Sistema Bancário com Python e Programação Orientada a Objetos (OOP)
-Este projeto é um sistema bancário completo, desenvolvido com Python, utilizando Programação Orientada a Objetos (OOP) para garantir uma estrutura modular e eficiente.
+Aqui está o arquivo `README.md` pronto para copiar e colar no seu repositório:
 
-💡 Objetivo
-Criar uma aplicação para gerenciamento de usuários e contas bancárias, permitindo operações como depósito, saque, consulta de extrato e listagem de contas.
+# 💰 Sistema Bancário em Python
 
-🛠️ Tecnologias Utilizadas
-✔ Python 3 – Linguagem de programação utilizada no projeto. ✔ Classes e Objetos – Abordagem orientada a objetos para organizar o código. ✔ Manipulação de Dados – Estruturas de lista e formatação de saída com textwrap.
+Este projeto implementa um **sistema bancário completo** utilizando **Programação Orientada a Objetos (OOP)** em Python. A aplicação permite gerenciar **usuários e contas bancárias**, além de realizar operações como **depósitos, saques e consulta de extratos**.
 
-🔥 Recursos Implementados
-✅ Cadastro de Usuário – Armazena CPF, nome, data de nascimento e endereço. ✅ Criação de Conta Bancária – Cada conta tem um número único e pertence a um usuário. ✅ Depósito de Valores – Adiciona saldo ao cliente e registra no extrato. ✅ Saque com Limite Diário – Garante segurança e controle financeiro ao usuário. ✅ Consulta de Extrato – Mostra todas as movimentações da conta. ✅ Listagem de Contas – Exibe todas as contas criadas no sistema.
+## 🚀 Funcionalidades
 
-📌 Exemplo de Uso
-O sistema funciona por meio de um menu interativo, onde o usuário pode selecionar a operação desejada:
+✅ **Cadastro de Usuários**: Armazena nome, CPF, data de nascimento e endereço dos clientes.  
+✅ **Criação de Contas Bancárias**: Cada conta está associada a um usuário e possui número exclusivo.  
+✅ **Depósito de Valores**: Adiciona saldo à conta e registra no extrato.  
+✅ **Saque de Valores**: Respeita limite diário e número máximo de saques permitidos.  
+✅ **Consulta de Extrato**: Exibe todas as movimentações da conta.  
+✅ **Listagem de Contas**: Mostra todas as contas cadastradas no sistema.  
+
+## 🛠️ Tecnologias
+
+O projeto foi desenvolvido usando **Python 3** e boas práticas de programação, garantindo um código **limpo, eficiente e reutilizável**. As principais bibliotecas utilizadas foram:
+
+- `textwrap`: Formatação de menus e mensagens de saída.
+- `datetime`: Manipulação de datas e cálculos financeiros.
+
+## 🔧 Estrutura do Código
+
+O sistema é composto por **duas classes principais**:
+
+- `Usuario`: Representa um cliente com informações pessoais.
+- `ContaBancaria`: Gerencia saldo, extrato e operações bancárias.
+
+Além disso, há funções auxiliares para **cadastro, consulta e interação com o usuário**.
+
+## 🎯 Como Executar
+
+1️⃣ Clone o repositório  
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+2️⃣ Navegue até a pasta do projeto  
+
+cd seu-repositorio
+
+3️⃣ Execute o programa  
+
+python sistema_bancario.py
+
+
+## 📌 Exemplo de Uso
 
 =============== MENU ================
 [d] Depositar
@@ -21,13 +54,14 @@ O sistema funciona por meio de um menu interativo, onde o usuário pode selecion
 [lc] Listar contas
 [nu] Novo usuário
 [q] Sair
-Basta escolher uma opção e seguir as instruções!
 
-🎯 Aprendizados
-Este projeto reforça conceitos essenciais da Programação Orientada a Objetos (OOP), como:
 
-Encapsulamento – Armazenamento organizado dos dados dos usuários e contas.
 
-Reutilização de Código – Métodos otimizados dentro das classes.
+## 🤝 Contribuições
 
-Interação entre Objetos – Usuários e contas conectados de forma lógica.
+Sinta-se à vontade para sugerir **melhorias** e reportar **bugs** abrindo **issues** no repositório! 💡
+
+---
+
+Agora é só copiar e colar! Se precisar de ajustes, me avise. 🚀🏦
+```
