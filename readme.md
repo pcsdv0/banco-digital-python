@@ -1,5 +1,3 @@
-Aqui está o arquivo `README.md` pronto para copiar e colar no seu repositório:
-
 # 💰 Sistema Bancário em Python
 
 Este projeto implementa um **sistema bancário completo** utilizando **Programação Orientada a Objetos (OOP)** em Python. A aplicação permite gerenciar **usuários e contas bancárias**, além de realizar operações como **depósitos, saques e consulta de extratos**.
